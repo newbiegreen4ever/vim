@@ -114,13 +114,45 @@ inoremap $e ""<esc>i
 " {{{ Mapping setting
 let mapleader = "\<Space>"
 set backspace=indent,eol,start
+
 " swap ; and : 
 nnoremap ; :
 nnoremap : ;
+
+" fj or jf to enter normal mode
+inoremap fj <esc><esc>
+inoremap jf <esc><esc>
+
+" easier to switch windows
+noremap <C-k> <C-w>k 
+noremap <C-j> <C-w>j
+noremap <C-h> <C-w>h
+noremap <C-l> <C-w>l
+
+" left right arrows for indentation
+nmap <Left> <<
+nmap <Right> >>
+vmap <Left> <gv
+vmap <Right> >gv
+
+" move across tab with <tab> key
+noremap <tab> gt
+noremap <s-tab> gT
+
+" toggle between absolute and relative line number by helper functions
+noremap nm :call ToggleNumber()<CR>
+
+" toggle netrw by helper functions 
+noremap <Leader><Tab> :call VexToggle(getcwd())<CR>
+noremap <Leader>` :call VexToggle("")<CR>
+
+" apply macros
+nnoremap Q @q
+vnoremap :norm @q<cr> 
 " }}}
 " {{{ Abbreviation
 
-iab xdate <c-r>=strftime("%y-%m-%d %H:%M:%S")<cr>
+iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
 iab clog console.log();
 iab teh the
 
@@ -148,7 +180,113 @@ function! <SID>StripTrailingWhitespaces()
     let @/=_s
     call cursor(l, c)
 endfunction
+
+" align assignment 'x=7'
+" https://www.ibm.com/developerworks/library/l-vim-script-4/index.html
+function! AlignAssignments ()
+    " Patterns needed to locate assignment operators...
+    let ASSIGN_OP   = '[-+*/%|&]\?=\@<!=[=~]\@!'
+    let ASSIGN_LINE = '^\(.\{-}\)\s*\(' . ASSIGN_OP . '\)\(.*\)$'
+ 
+    " Locate block of code to be considered (same indentation, no blanks)...
+    let indent_pat = '^' . matchstr(getline('.'), '^\s*') . '\S'
+    let firstline  = search('^\%('. indent_pat . '\)\@!','bnW') + 1
+    let lastline   = search('^\%('. indent_pat . '\)\@!', 'nW') - 1
+    if lastline < 0
+        let lastline = line('$')
+    endif
+ 
+    " Decompose lines at assignment operators...
+    let lines = []
+    for linetext in getline(firstline, lastline)
+        let fields = matchlist(linetext, ASSIGN_LINE)
+        if len(fields) 
+            call add(lines, {'lval':fields[1], 'op':fields[2], 'rval':fields[3]})
+        else
+            call add(lines, {'text':linetext,  'op':''                         })
+        endif
+    endfor
+ 
+    " Determine maximal lengths of lvalue and operator...
+    let op_lines = filter(copy(lines),'!empty(v:val.op)')
+    let max_lval = max( map(copy(op_lines), 'strlen(v:val.lval)') ) + 1
+    let max_op   = max( map(copy(op_lines), 'strlen(v:val.op)'  ) )
+ 
+    " Recompose lines with operators at the maximum length...
+    let linenum = firstline
+    for line in lines
+        let newline = empty(line.op)
+        \ ? line.text
+        \ : printf("%-*s%*s%s", max_lval, line.lval, max_op, line.op, line.rval)
+        call setline(linenum, newline)
+        let linenum += 1
+    endfor
+endfunction
+
+" update timestamp on every save
+function! UpdateTimestamp ()
+    '[,']s/^This file last updated: \zs.*/\= strftime("%Y-%m-%d %H:%M:%S") /
+endfunction" }}}
+" {{{ Helper functions - netrw
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+
+function! VexToggle(dir)
+    if exists("t:vex_buf_nr")
+        call VexClose()
+    else
+        call VexOpen(a:dir)
+    endif
+endfunction
+
+function! VexOpen(dir)
+    let g:netrw_browse_split = 4 " open files in previous windoe
+    let vex_width = 25
+
+    execute "Vexplore " . a:dir
+    let t:vex_buf_nr = bufnr("%")
+    wincmd H
+
+    call VexSize(vex_width)
+endfunction
+
+function! VexClose()
+    let cur_win_nr = winnr()
+    let target_nr = ( cur_win_nr == 1 ? winnr("#") : cur_win_nr)
+
+    1wincmd w
+    close
+    unlet t:vex_buf_nr
+
+    execute (target_nr - 1) . "wincmd w"
+    call NormalizeWidths()
+endfunction
+
+function! VexSize(vex_width)
+    execute "vertical resize" . a:vex_width
+    set winfixwidth
+    call NormalizeWidths()
+endfunction
+
+function! NormalizeWidths()
+    let eadir_pref = &eadirection
+    set equalalways
+    " set eadirection = hor
+    let &eadirection = eadir_pref
+endfunction
 " }}}
+"{{{ Autocmd
+augroup fmt
+  autocmd!
+  autocmd BufWritePre * undojoin | Neoformat
+augroup END
+
+augroup align
+    autocmd!
+    autocmd BufWritePre,FileWritePre,FileAppendPre  *  :call AlignAssignments()
+augroup END
+
+"}}}
 " {{{ Plugin setting
 
 " nathanaelkane/vim-indent-guides
@@ -165,28 +303,35 @@ let g:indent_guides_exclude_filetypes = ['help', 'nerdtree', 'text', 'markdown']
 let g:user_emmet_mode='a'    
 
 " enable just for html/css
-let g:user_emmet_install_global = 0 "
-autocmd FileType html,css EmmetInstal
+" let g:user_emmet_install_global = 0
+" autocmd FileType html,css EmmetInstal
 
 " remap the default <C-Y> leader
-let g:user_emmet_leader_key='<C-M>'
+" let g:user_emmet_leader_key='<C-M>'
 
 " vimwiki/vimwiki
 """""""""""""""""""""""""""""""""
 let wiki_1 = {}
-let wiki_1.path = 'C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding'
+let wiki_1.path = 'C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1'
 " markdown to HTML is not suuported by vimwiki yet
 " let wiki_1.path_html = '~/vimwiki/vimwiki-personal_html/' 
 let wiki_1.syntax = 'markdown'
 let wiki_1.ext = '.md'
 
 let wiki_2 = {}
-let wiki_2.path = 'C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-clipbook'
-"let wiki_2.path_html = '~/vimwiki/vimwiki-coding_html/'
+let wiki_2.path = 'C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding'
+" markdown to HTML is not suuported by vimwiki yet
+" let wiki_1.path_html = '~/vimwiki/vimwiki-personal_html/' 
 let wiki_2.syntax = 'markdown'
 let wiki_2.ext = '.md'
 
-let g:vimwiki_list = [wiki_1, wiki_2]
+let wiki_3 = {}
+let wiki_3.path = 'C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-scrapbook'
+"let wiki_2.path_html = '~/vimwiki/vimwiki-coding_html/'
+let wiki_3.syntax = 'markdown'
+let wiki_3.ext = '.md'
+
+let g:vimwiki_list = [wiki_1, wiki_2, wiki_3]
 " }}}
 " {{{ Folding setting
 
@@ -194,7 +339,7 @@ set foldmethod=marker
 set foldlevel=0
 set modelines=1
 
+" enable markdown folding 
+let g:markdown_folding=1 
 " }}}
 " vim:foldmethod=marker:foldlevel=0
-
-

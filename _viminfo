@@ -11,93 +11,283 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0/\<fdsasfadsfda\>
+~MSle0~/Mary and Butcher
 
 # Last Substitute Search Pattern:
-~MSle0~&\V\chttpRequest
+~MSle0&Mary and Butcher
 
 # Last Substitute String:
-$xhr
+$\= strftime("%Y-%m-%d %H:%M:%S") 
 
 # Command Line History (newest to oldest):
+:Neoformat! python
+|2,0,1506992097,,"Neoformat! python"
+:Neoformat
+|2,0,1506992072,,"Neoformat"
+:Neoformat! javascript
+|2,0,1506992038,,"Neoformat! javascript"
 :w
-|2,0,1505055724,,"w"
-:colorscheme dracula
-|2,0,1505054901,,"colorscheme dracula"
-:e 'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|2,0,1505054268,,"e 'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
-:e C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|2,0,1505054232,,"e C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
-:colorscheme evening
-|2,0,1505053377,,"colorscheme evening"
-:PrevimOpen
-|2,0,1504858727,,"PrevimOpen"
+|2,0,1506992032,,"w"
+:w;w
+|2,0,1506991967,,"w;w"
+:Neoformat! markdown
+|2,0,1506991820,,"Neoformat! markdown"
+:tabnew
+|2,0,1506991791,,"tabnew"
+:Neoformat! php
+|2,0,1506991667,,"Neoformat! php"
+:Neoformat javascript
+|2,0,1506991629,,"Neoformat javascript"
+:Neoformat js
+|2,0,1506991623,,"Neoformat js"
+:Neoformat php
+|2,0,1506991611,,"Neoformat php"
+:call AlignAssignments()
+|2,0,1506990401,,"call AlignAssignments()"
+:so %
+|2,0,1506990338,,"so %"
+:+4
+|2,0,1506989420,,"+4"
+:-5
+|2,0,1506989410,,"-5"
+:q
+|2,0,1506988884,,"q"
+:8
+|2,0,1506988680,,"8"
+:23
+|2,0,1506988673,,"23"
+:9
+|2,0,1506988661,,"9"
 :packadd vimwiki
-|2,0,1504858624,,"packadd vimwiki"
-:packadd previm
-|2,0,1504858557,,"packadd previm"
-:packadd
-|2,0,1504858445,,"packadd"
-:OpenBrowserSearch vim
-|2,0,1504858150,,"OpenBrowserSearch vim"
-:OpenBrowserSearch Vim
-|2,0,1504858110,,"OpenBrowserSearch Vim"
-:packadd markdown-preview
-|2,0,1504857726,,"packadd markdown-preview"
-:packadd instant-markdown
-|2,0,1504857280,,"packadd instant-markdown"
-:W
-|2,0,1504856861,,"W"
-:center
-|2,0,1504856326,,"center"
-:color 
-|2,0,1504855619,,"color "
-:color dracula
-|2,0,1504855592,,"color dracula"
-:packadd emmet
-|2,0,1504841974,,"packadd emmet"
-:packadd emmet-vim
-|2,0,1504840348,,"packadd emmet-vim"
-:vim html.html
-|2,0,1504840137,,"vim html.html"
-:IndentGuidesToggle 
-|2,0,1504839118,,"IndentGuidesToggle "
-:IndentGuidesDisable
-|2,0,1504839049,,"IndentGuidesDisable"
-:IndentGuidesEnable
-|2,0,1504839023,,"IndentGuidesEnable"
-:packload
-|2,0,1504838146,,"packload"
-:IndentLinesToggle
-|2,0,1504837839,,"IndentLinesToggle"
-:IndentLinesEnable
-|2,0,1504837817,,"IndentLinesEnable"
+|2,0,1506988633,,"packadd vimwiki"
+:% normal A;
+|2,0,1506988601,,"% normal A;"
+:% A;
+|2,0,1506988589,,"% A;"
+:2,3normal A;
+|2,0,1506988497,,"2,3normal A;"
+:normal A;
+|2,0,1506988475,,"normal A;"
 :wq
-|2,0,1504837782,,"wq"
-:color badwolf
-|2,0,1504836784,,"color badwolf"
-:color badwold
-|2,0,1504836779,,"color badwold"
-:color goodwolf
-|2,0,1504836771,,"color goodwolf"
-:color hydrangea
-|2,0,1504836759,,"color hydrangea"
-:w!
-|2,0,1504800709,,"w!"
-: w
-|2,0,1504794230,," w"
-: " swap ; and : w
-|2,0,1504793568,," \" swap ; and : w"
-: " swap ; and :w
-|2,0,1504793461,," \" swap ; and :w"
+|2,0,1506964831,,"wq"
+:gUU
+|2,0,1506964598,,"gUU"
+:s %
+|2,0,1506962888,,"s %"
+:141
+|2,0,1506962718,,"141"
+:1031
+|2,0,1506962401,,"1031"
+:TOHTML
+|2,0,1506959401,,"TOHTML"
+:Tohtml
+|2,0,1506959395,,"Tohtml"
+:TOHtml
+|2,0,1506959391,,"TOHtml"
+:echo @%
+|2,0,1506957250,,"echo @%"
+:help eadirection
+|2,0,1506949928,,"help eadirection"
+:210
+|2,0,1506948297,,"210"
+:Vexplore
+|2,0,1506941811,,"Vexplore"
+:.,.+41!
+|2,0,1506941675,,".,.+41!"
+:.,.+30!j
+|2,0,1506941385,,".,.+30!j"
+:so %!
+|2,0,1506941364,,"so %!"
+:so
+|2,0,1506941338,,"so"
+:vim . 
+|2,0,1506940116,,"vim . "
+:vim .
+|2,0,1506940090,,"vim ."
+:vpc
+|2,0,1506663235,,"vpc"
+:packadd emmet
+|2,0,1506658705,,"packadd emmet"
+:W
+|2,0,1506657457,,"W"
+:%s/Mary and Butcher/May and Butcher/
+|2,0,1506581943,,"%s/Mary and Butcher/May and Butcher/"
+:%s/2015 agreement/2014 agreement/g
+|2,0,1506581817,,"%s/2015 agreement/2014 agreement/g"
+:%s/2015 oral agreement/2015 agreement/g
+|2,0,1506581245,,"%s/2015 oral agreement/2015 agreement/g"
+:%s/2015 oral agreement/2015 agreement/
+|2,0,1506581209,,"%s/2015 oral agreement/2015 agreement/"
+:.!
+|2,0,1506569798,,".!"
+:43,47s/1./- [ ] 1./
+|2,0,1506510547,,"43,47s/1./- [ ] 1./"
+:25,39s/1./- [ ] 1./
+|2,0,1506510520,,"25,39s/1./- [ ] 1./"
+:17,21s/1./- [ ] 1./
+|2,0,1506510438,,"17,21s/1./- [ ] 1./"
+:5,7s/^/- /
+|2,0,1506508717,,"5,7s/^/- /"
+:11,15s/^/- /
+|2,0,1506508596,,"11,15s/^/- /"
+:4,9s/^/- /
+|2,0,1506508567,,"4,9s/^/- /"
+:4,9/^/- /
+|2,0,1506508538,,"4,9/^/- /"
+:4,9s/^/-/
+|2,0,1506508521,,"4,9s/^/-/"
+:s4,15/^/- /
+|2,0,1506508489,,"s4,15/^/- /"
+:4,20s/^/- /
+|2,0,1506508443,,"4,20s/^/- /"
+:'<,'>VimwikiTable 27
+|2,0,1506430356,,"'<,'>VimwikiTable 27"
+:sp ../
+|2,0,1506421760,,"sp ../"
+:vsp
+|2,0,1506421362,,"vsp"
+:vsp 
+|2,0,1506421014,,"vsp "
+:sp
+|2,0,1506420643,,"sp"
+:10sp
+|2,0,1506420605,,"10sp"
+:vimtutor
+|2,0,1506419714,,"vimtutor"
+:4,23s/ Incomplete   *//
+|2,0,1506305955,,"4,23s/ Incomplete   *//"
+:4,23/ Incomplete   *//
+|2,0,1506305911,,"4,23/ Incomplete   *//"
+:4,23s/ Incomplete   *//
+|2,0,1506305892,,"4,23s/ Incomplete   *//"
+:4,23s/ Incomplete  *//
+|2,0,1506305872,,"4,23s/ Incomplete  *//"
+:4,23s/^/- [ ]/
+|2,0,1506305789,,"4,23s/^/- [ ]/"
+:4,17s/^/- [ ]/
+|2,0,1506305747,,"4,17s/^/- [ ]/"
+:4,17s//- [ ]/
+|2,0,1506305730,,"4,17s//- [ ]/"
+:1,48s/vendor_//
+|2,0,1506305672,,"1,48s/vendor_//"
+:70,81s/vendor_//
+|2,0,1506305644,,"70,81s/vendor_//"
+:49,69s/vendor_//
+|2,0,1506305622,,"49,69s/vendor_//"
+:49,69s/vendor_/^/
+|2,0,1506305592,,"49,69s/vendor_/^/"
+:49,69s/vendor_/^
+|2,0,1506305561,,"49,69s/vendor_/^"
+:49,69/vendor_/^/
+|2,0,1506305538,,"49,69/vendor_/^/"
+:%s/^/vendor_/
+|2,0,1506305486,,"%s/^/vendor_/"
+:44,49s/let/const/g
+|2,0,1506249023,,"44,49s/let/const/g"
+:44,50s/let/const/g
+|2,0,1506249000,,"44,50s/let/const/g"
+:s/44,49/let/const
+|2,0,1506248944,,"s/44,49/let/const"
+:help comment
+|2,0,1506248600,,"help comment"
+:%s/dataS/data
+|2,0,1506054494,,"%s/dataS/data"
+:%s/dataC/data/g
+|2,0,1506054481,,"%s/dataC/data/g"
+:%s/arrayDataStream/arrayData/g
+|2,0,1506054449,,"%s/arrayDataStream/arrayData/g"
+:%s/arrayDataChannel/arrayData/g
+|2,0,1506054389,,"%s/arrayDataChannel/arrayData/g"
+:%s/freecodecampC/arrayDataChannel/g
+|2,0,1506048032,,"%s/freecodecampC/arrayDataChannel/g"
+:%s/freecodecampS/arrayDataStream/g
+|2,0,1506048005,,"%s/freecodecampS/arrayDataStream/g"
+:%s freecodecampS arrayDataChannel
+|2,0,1506047943,,"%s freecodecampS arrayDataChannel"
+:packadd vim-markdown
+|2,0,1505924006,,"packadd vim-markdown"
+:help ctrlp
+|2,0,1505700360,,"help ctrlp"
+:visincr-I
+|2,0,1505700290,,"visincr-I"
+:help visincr
+|2,0,1505700225,,"help visincr"
+:visincr
+|2,0,1505700219,,"visincr"
+:undolist
+|2,0,1505700203,,"undolist"
+:undotree
+|2,0,1505700188,,"undotree"
+:help undotree
+|2,0,1505700169,,"help undotree"
 
 # Search String History (newest to oldest):
+? .*
+|2,1,1506992516,,".*"
+? ^This file last updated: \zs.*
+|2,1,1506991739,,"^This file last updated: \\zs.*"
+? @$
+|2,1,1506989614,,"@$"
+? \$\(cursor\|select\)\$
+|2,1,1506658721,,"\\$\\(cursor\\|select\\)\\$"
+? Mary and Butcher
+|2,1,1506581943,,"Mary and Butcher"
+? 2015 agreement
+|2,1,1506581817,,"2015 agreement"
+? 2015 oral agreement
+|2,1,1506581245,,"2015 oral agreement"
+? \<summary\>
+|2,1,1506569813,,"\\<summary\\>"
+? \<right\>
+|2,1,1506569809,,"\\<right\\>"
+? 1.
+|2,1,1506510547,,"1."
+? ^
+|2,1,1506508717,,"^"
+?/vim
+|2,1,1506421463,47,"vim"
+?  Incomplete   *
+|2,1,1506305955,," Incomplete   *"
+?  Incomplete   *
+|2,1,1506305892,," Incomplete   *"
+?  Incomplete  *
+|2,1,1506305872,," Incomplete  *"
+? vendor_
+|2,1,1506305672,,"vendor_"
+? let
+|2,1,1506249023,,"let"
+? \<arrayData\>
+|2,1,1506132159,,"\\<arrayData\\>"
+? dataS
+|2,1,1506054494,,"dataS"
+? dataC
+|2,1,1506054481,,"dataC"
+? arrayDataStream
+|2,1,1506054449,,"arrayDataStream"
+? arrayDataChannel
+|2,1,1506054389,,"arrayDataChannel"
+? freecodecampC
+|2,1,1506048032,,"freecodecampC"
+? freecodecampS
+|2,1,1506048005,,"freecodecampS"
+? \<_Ashburn\>
+|2,1,1505984218,,"\\<_Ashburn\\>"
+? \<_Sudbrook\>
+|2,1,1505982832,,"\\<_Sudbrook\\>"
+? \<Sudbrook\>
+|2,1,1505982786,,"\\<Sudbrook\\>"
+? \<_Fletcher\>
+|2,1,1505982647,,"\\<_Fletcher\\>"
+? \V\c  
+|2,1,1505740564,,"\\V\\c  "
+? \V\cvar
+|2,1,1505477998,,"\\V\\cvar"
+? \V\c\/\/
+|2,1,1505388607,,"\\V\\c\\/\\/"
 ? \V\chttpRequest
 |2,1,1505055155,,"\\V\\chttpRequest"
 ? \V\c\<httpRequest.\>
 |2,1,1505055131,,"\\V\\c\\<httpRequest.\\>"
-? \$\(cursor\|select\)\$
-|2,1,1504842623,,"\\$\\(cursor\\|select\\)\\$"
 ? \<fdsasfadsfda\>
 |2,1,1504805644,,"\\<fdsasfadsfda\\>"
 ?/s ~ C:/Users/User
@@ -108,10 +298,18 @@ $xhr
 |2,1,1504794691,47,"ruler"
 
 # Expression History (newest to oldest):
+=acp#onPopupPost()
+|2,2,1506061760,,"acp#onPopupPost()"
 
 # Input Line History (newest to oldest):
+@Ep02.md
+|2,3,1506958276,,"Ep02.md"
+@[{y(es)},n(o),a(ll),q(uit)] q
+|2,3,1506957235,,"[{y(es)},n(o),a(ll),q(uit)] q"
 @y
-|2,3,1504856916,,"y"
+|2,3,1506568067,,"y"
+@n
+|2,3,1506568049,,"n"
 @ul>li#header$*4>strong+bq
 |2,3,1504842348,,"ul>li#header$*4>strong+bq"
 @ul>li#item$*4>span+em>^bq
@@ -137,337 +335,2633 @@ $xhr
 
 # Registers:
 "0	CHAR	0
-	ctermbg=DarkMagenta ctermfg=White
-|3,0,0,0,1,0,1505053254,"ctermbg=DarkMagenta ctermfg=White"
-"1	LINE	0
-	<!doctype html>
-	<html>
-	<head>
-	<meta charset = "utf-8">
-	<title>AJAX</title>
-	<style>
-	  #btn {
-	    border: 1px solid black;
-	    padding: 10px;
-	  }
-	</style>
-	</head>
-	
-	<body>
-	
-	  <div id="output"></div> 
-	
-	  <input type="text" id="ktext">
-	  <input type="text" id="dtext">
-	  
-	  <div id="btn">Click Me</div> 
-	
-	<script>
-	
-	(function () {
-	
-	  document.getElementById("btn").onclick = showData;
-	
-	  function showData () {
-	    var myData = document.getElementById("ktext").value;
-	    var nameKey = document.getElementById("dtext").value;
-	    var myPost = "nameKey=" + encodeURIComponent(nameKey) + "&mydata" + encodeURIComponent(myData);
-	
-	    var xhr = new XMLHttpRequest();
-	    xhr.onreadystatechange = function() {
-	        if (this.readyState === 4 && this.status === 200) {
-	          console.log(this.readyState);
-	          console.log(this.status);
-	          document.getElementById("output").innerHTML = this.responseText;
-	      } else {
-	          console.log('Not ready yet.');
-	          console.log(this.readyState);
-	          console.log(this.status);
-	      }
-	
-	    };
-	
-	    xhr.open('POST', 'test.php', true);
-	    xhr.setRequestHeader('Content-Type', 'application/x-www-forum-urlencoded');
-	    xhr.send(myPost);
-|3,0,1,1,50,0,1505055090,"<!doctype html>","<html>","<head>","<meta charset = \"utf-8\">","<title>AJAX</title>","<style>","  #btn {","    border: 1px solid black;","    padding: 10px;","  }","</style>","</head>","","<body>","","  <div id=\"output\"></div> ","","  <input type=\"text\" id=\"ktext\">","  <input type=\"text\" id=\"dtext\">","  ","  <div id=\"btn\">Click Me</div> ","","<script>","","(function () {","",>56
-|<"  document.getElementById(\"btn\").onclick = showData;","","  function showData () {","    var myData = document.getElementById(\"ktext\").value;","    var nameKey = document.getElementById(\"dtext\").value;","    var myPost = \"nameKey=\" + encodeURIComponent(nameKey) + \"&mydata\" + encodeURIComponent(myData);","","    var xhr = new XMLHttpRequest();","    xhr.onreadystatechange = function() {","        if (this.readyState === 4 && this.status === 200) {",>41
-|<"          console.log(this.readyState);","          console.log(this.status);","          document.getElementById(\"output\").innerHTML = this.responseText;","      } else {","          console.log('Not ready yet.');","          console.log(this.readyState);","          console.log(this.status);","      }","","    };","","    xhr.open('POST', 'test.php', true);","    xhr.setRequestHeader('Content-Type', 'application/x-www-forum-urlencoded');","    xhr.send(myPost);"
+	0
+|3,0,0,0,1,0,1506992516,"0"
+""1	LINE	0
+	 repeatStringNumTimes("abc", 4);
+|3,1,1,1,1,0,1506992516," repeatStringNumTimes(\"abc\", 4);"
 "2	LINE	0
 	
-	 ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗              
-	██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝              
-	██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗             
-	██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║             
-	╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝             
-	 ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝              
-	                                                            
-|3,0,2,1,8,0,1504856548,""," ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗              ","██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝              ","██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗             ",>130
-|<"██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║             ","╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝             "," ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝              ","                                                            "
+|3,0,2,1,1,0,1506992516,""
 "3	LINE	0
-	                                                                                 
-|3,0,3,1,1,0,1504856521,"                                                                                 "
+	 }
+|3,0,3,1,1,0,1506992516," }"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1504856521,""
-"5	CHAR	0
-	
-	
-	 ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗ 
-	██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝ 
-	██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗
-	██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║
-	╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝
-	 ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ 
-	
-|3,0,5,0,9,0,1504856510,"",""," ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗ ","██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝ ","██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗",>117
-|<"██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║","╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝"," ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝ ",""
+	   }
+|3,0,4,1,1,0,1506992516,"   }"
+"5	LINE	0
+	     return "";
+|3,0,5,1,1,0,1506992516,"     return \"\";"
 "6	LINE	0
-	                                       
-|3,0,6,1,1,0,1504856310,"                                       "
+	   } else {
+|3,0,6,1,1,0,1506992516,"   } else {"
 "7	LINE	0
-	                                       
-|3,0,7,1,1,0,1504856304,"                                       "
+	     return str;
+|3,0,7,1,1,0,1506992516,"     return str;"
 "8	LINE	0
-	                                               
-	                                               
-	                                               
-	                                               
-	                                               
-	                                               
-	                                               
-	                                               
-|3,0,8,1,8,0,1504856289,"                                               ","                                               ","                                               ","                                               ","                                               ","                                               ","                                               ","                                               "
-"9	CHAR	0
-	
-	 ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗ 
-	██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝ 
-	██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗
-	██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║
-	╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝
-	 ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝
-|3,0,9,0,7,0,1504856209,""," ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗ ","██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝ ","██║     ██║   ██║██║  ██║██║██╔██╗ ██║██║  ███╗",>117
-|<"██║     ██║   ██║██║  ██║██║██║╚██╗██║██║   ██║","╚██████╗╚██████╔╝██████╔╝██║██║ ╚████║╚██████╔╝"," ╚═════╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝ ╚═════╝"
-""-	CHAR	0
-	 badwolf
-|3,1,36,0,1,0,1505055715," badwolf"
+	   } if (num === 1) {
+|3,0,8,1,1,0,1506992516,"   } if (num === 1) {"
+"9	LINE	0
+	     return str.concat(str, repeatStringNumTimes(str, num - 2));
+|3,0,9,1,1,0,1506992516,"     return str.concat(str, repeatStringNumTimes(str, num - 2));"
+"-	CHAR	0
+	 TimeStamping
+|3,0,36,0,1,0,1506991954," TimeStamping"
 
 # File marks:
-'0  58  18  ~\_vimrc
-|4,48,58,18,1505055727,"~\\_vimrc"
-'1  24  34  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,49,24,34,1505055254,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
-'2  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,50,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
-'3  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,51,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
-'4  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,52,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
-'5  71  19  ~\_vimrc
-|4,53,71,19,1505053593,"~\\_vimrc"
-'6  71  19  ~\_vimrc
-|4,54,71,19,1505053593,"~\\_vimrc"
-'7  72  61  ~\_vimrc
-|4,55,72,61,1505053476,"~\\_vimrc"
-'8  72  61  ~\_vimrc
-|4,56,72,61,1505053476,"~\\_vimrc"
-'9  72  61  ~\_vimrc
-|4,57,72,61,1505053476,"~\\_vimrc"
+'0  1  0  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-07-09_fccAlgo2.js
+|4,48,1,0,1506992660,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-07-09_fccAlgo2.js"
+'1  604  23  C:\Users\User\Desktop\jsbeautify.vim
+|4,49,604,23,1506992458,"C:\\Users\\User\\Desktop\\jsbeautify.vim"
+'2  286  12  ~\_vimrc
+|4,50,286,12,1506992014,"~\\_vimrc"
+'3  282  10  ~\_vimrc
+|4,51,282,10,1506991743,"~\\_vimrc"
+'4  283  10  ~\_vimrc
+|4,52,283,10,1506991743,"~\\_vimrc"
+'5  288  0  ~\_vimrc
+|4,53,288,0,1506991569,"~\\_vimrc"
+'6  289  0  ~\_vimrc
+|4,54,289,0,1506991569,"~\\_vimrc"
+'7  284  0  ~\_vimrc
+|4,55,284,0,1506991569,"~\\_vimrc"
+'8  285  0  ~\_vimrc
+|4,56,285,0,1506991569,"~\\_vimrc"
+'9  151  0  ~\_vimrc
+|4,57,151,0,1506964831,"~\\_vimrc"
 
 # Jumplist (newest first):
--'  58  18  ~\_vimrc
-|4,39,58,18,1505055727,"~\\_vimrc"
+-'  1  0  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-07-09_fccAlgo2.js
+|4,39,1,0,1506992660,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-07-09_fccAlgo2.js"
+-'  18  0  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-07-09_fccAlgo2.js
+|4,39,18,0,1506992525,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-07-09_fccAlgo2.js"
+-'  1  0  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-11_freeCodeCamp-catPhotoPage.html
+|4,39,1,0,1506992502,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-06-11_freeCodeCamp-catPhotoPage.html"
+-'  66  0  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-11_freeCodeCamp-catPhotoPage.html
+|4,39,66,0,1506992500,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-06-11_freeCodeCamp-catPhotoPage.html"
+-'  604  23  C:\Users\User\Desktop\jsbeautify.vim
+|4,39,604,23,1506992458,"C:\\Users\\User\\Desktop\\jsbeautify.vim"
+-'  604  23  C:\Users\User\Desktop\jsbeautify.vim
+|4,39,604,23,1506992458,"C:\\Users\\User\\Desktop\\jsbeautify.vim"
+-'  1  0  C:\Users\User\Desktop\jsbeautify.vim
+|4,39,1,0,1506992221,"C:\\Users\\User\\Desktop\\jsbeautify.vim"
+-'  48  2  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-08_twoCrossoverMethodsDNA.js
+|4,39,48,2,1506992221,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-06-08_twoCrossoverMethodsDNA.js"
+-'  1  0  C:\Users\User\Desktop\jsbeautify.vim
+|4,39,1,0,1506992221,"C:\\Users\\User\\Desktop\\jsbeautify.vim"
+-'  48  2  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-08_twoCrossoverMethodsDNA.js
+|4,39,48,2,1506992221,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-06-08_twoCrossoverMethodsDNA.js"
+-'  1  0  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-08_twoCrossoverMethodsDNA.js
+|4,39,1,0,1506992021,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-06-08_twoCrossoverMethodsDNA.js"
+-'  1  0  C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-08_twoCrossoverMethodsDNA.js
+|4,39,1,0,1506992021,"C:\\Users\\User\\Documents\\GitHub\\100-days-of-code_v.Newbie\\code\\2017-06-08_twoCrossoverMethodsDNA.js"
+-'  286  12  ~\_vimrc
+|4,39,286,12,1506992014,"~\\_vimrc"
+-'  286  12  ~\_vimrc
+|4,39,286,12,1506992014,"~\\_vimrc"
+-'  286  12  ~\_vimrc
+|4,39,286,12,1506992014,"~\\_vimrc"
+-'  286  12  ~\_vimrc
+|4,39,286,12,1506992014,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991913,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991913,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991913,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991913,"~\\_vimrc"
+-'  280  11  ~\_vimrc
+|4,39,280,11,1506991865,"~\\_vimrc"
+-'  280  11  ~\_vimrc
+|4,39,280,11,1506991865,"~\\_vimrc"
+-'  280  11  ~\_vimrc
+|4,39,280,11,1506991865,"~\\_vimrc"
+-'  280  11  ~\_vimrc
+|4,39,280,11,1506991865,"~\\_vimrc"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505055703,"~\\_vimrc"
--'  24  34  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,24,34,1505055254,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  24  34  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,24,34,1505055254,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  23  17  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,23,17,1505055148,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  23  17  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,23,17,1505055148,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  48  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,48,0,1505055090,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  48  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,48,0,1505055090,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  49  5  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,49,5,1505055086,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  49  5  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\lecture15.html
-|4,39,49,5,1505055086,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\lecture15.html"
--'  26  8  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,26,8,1505055021,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  26  8  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,26,8,1505055021,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054885,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054885,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  34  6  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,34,6,1505054397,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054319,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054319,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054319,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054319,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\gVimPortable\'C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html'
-|4,39,1,0,1505054300,"C:\\Users\\User\\Documents\\gVimPortable\\'C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html'"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054268,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054268,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054268,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture17--simply-showing-sourcecode\lecture17.html
-|4,39,1,0,1505054268,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture17--simply-showing-sourcecode\\lecture17.html"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
--'  71  19  ~\_vimrc
-|4,39,71,19,1505053593,"~\\_vimrc"
+|4,39,1,0,1506991756,"~\\_vimrc"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
+|4,39,1,0,1506991756,"~\\_vimrc"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
+|4,39,1,0,1506991756,"~\\_vimrc"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
+|4,39,1,0,1506991756,"~\\_vimrc"
+-'  282  10  ~\_vimrc
+|4,39,282,10,1506991743,"~\\_vimrc"
+-'  283  10  ~\_vimrc
+|4,39,283,10,1506991743,"~\\_vimrc"
+-'  282  10  ~\_vimrc
+|4,39,282,10,1506991743,"~\\_vimrc"
+-'  283  10  ~\_vimrc
+|4,39,283,10,1506991743,"~\\_vimrc"
+-'  282  10  ~\_vimrc
+|4,39,282,10,1506991743,"~\\_vimrc"
+-'  283  10  ~\_vimrc
+|4,39,283,10,1506991743,"~\\_vimrc"
+-'  282  10  ~\_vimrc
+|4,39,282,10,1506991743,"~\\_vimrc"
+-'  283  10  ~\_vimrc
+|4,39,283,10,1506991743,"~\\_vimrc"
+-'  279  0  ~\_vimrc
+|4,39,279,0,1506991726,"~\\_vimrc"
+-'  280  0  ~\_vimrc
+|4,39,280,0,1506991726,"~\\_vimrc"
+-'  279  0  ~\_vimrc
+|4,39,279,0,1506991726,"~\\_vimrc"
+-'  280  0  ~\_vimrc
+|4,39,280,0,1506991726,"~\\_vimrc"
+-'  279  0  ~\_vimrc
+|4,39,279,0,1506991726,"~\\_vimrc"
+-'  280  0  ~\_vimrc
+|4,39,280,0,1506991726,"~\\_vimrc"
+-'  279  0  ~\_vimrc
+|4,39,279,0,1506991726,"~\\_vimrc"
+-'  280  0  ~\_vimrc
+|4,39,280,0,1506991726,"~\\_vimrc"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
+|4,39,1,0,1506991717,"~\\_vimrc"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
+|4,39,1,0,1506991717,"~\\_vimrc"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
+|4,39,1,0,1506991717,"~\\_vimrc"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
 -'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1505053519,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
--'  72  61  ~\_vimrc
-|4,39,72,61,1505053476,"~\\_vimrc"
+|4,39,1,0,1506991717,"~\\_vimrc"
+-'  11  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,11,0,1506991717,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  1  0  C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+|4,39,1,0,1506991579,"C:\\Users\\User\\Documents\\GitHub\\learn-javascript-ajax\\lecture15\\test.php"
+-'  288  0  ~\_vimrc
+|4,39,288,0,1506991569,"~\\_vimrc"
+-'  289  0  ~\_vimrc
+|4,39,289,0,1506991569,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991569,"~\\_vimrc"
+-'  285  0  ~\_vimrc
+|4,39,285,0,1506991569,"~\\_vimrc"
+-'  288  0  ~\_vimrc
+|4,39,288,0,1506991569,"~\\_vimrc"
+-'  289  0  ~\_vimrc
+|4,39,289,0,1506991569,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991569,"~\\_vimrc"
+-'  285  0  ~\_vimrc
+|4,39,285,0,1506991569,"~\\_vimrc"
+-'  288  0  ~\_vimrc
+|4,39,288,0,1506991569,"~\\_vimrc"
+-'  289  0  ~\_vimrc
+|4,39,289,0,1506991569,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991569,"~\\_vimrc"
+-'  285  0  ~\_vimrc
+|4,39,285,0,1506991569,"~\\_vimrc"
+-'  288  0  ~\_vimrc
+|4,39,288,0,1506991569,"~\\_vimrc"
+-'  289  0  ~\_vimrc
+|4,39,289,0,1506991569,"~\\_vimrc"
+-'  284  0  ~\_vimrc
+|4,39,284,0,1506991569,"~\\_vimrc"
+-'  285  0  ~\_vimrc
+|4,39,285,0,1506991569,"~\\_vimrc"
+-'  281  0  ~\_vimrc
+|4,39,281,0,1506991183,"~\\_vimrc"
+-'  281  0  ~\_vimrc
+|4,39,281,0,1506991183,"~\\_vimrc"
+-'  281  0  ~\_vimrc
+|4,39,281,0,1506991183,"~\\_vimrc"
+-'  281  0  ~\_vimrc
+|4,39,281,0,1506991183,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  228  54  ~\_vimrc
+|4,39,228,54,1506991076,"~\\_vimrc"
+-'  227  0  ~\_vimrc
+|4,39,227,0,1506991019,"~\\_vimrc"
+-'  227  0  ~\_vimrc
+|4,39,227,0,1506991019,"~\\_vimrc"
+-'  227  0  ~\_vimrc
+|4,39,227,0,1506991019,"~\\_vimrc"
+-'  227  0  ~\_vimrc
+|4,39,227,0,1506991019,"~\\_vimrc"
 
 # History of marks within files (newest to oldest):
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-07-09_fccAlgo2.js
+	*	1506992541	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-11_freeCodeCamp-catPhotoPage.html
+	*	1506992500	0
+	"	1	0
+	.	1	0
+	+	66	0
+	+	1	0
+
+> C:\Users\User\Desktop\jsbeautify.vim
+	*	1506992455	0
+	"	604	23
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-08_twoCrossoverMethodsDNA.js
+	*	1506992221	0
+	"	48	2
+	.	48	0
+	+	14	0
+	+	47	0
+	+	48	0
+
+> ~\_vimrc
+	*	1506992006	0
+	"	286	12
+	^	284	13
+	.	284	12
+	+	230	21
+	+	231	24
+	+	233	0
+	+	155	27
+	+	152	5
+	+	143	35
+	+	145	8
+	+	142	50
+	+	142	69
+	+	145	15
+	+	127	20
+	+	128	24
+	+	129	25
+	+	130	27
+	+	127	19
+	+	128	21
+	+	129	21
+	+	130	22
+	+	127	0
+	+	128	18
+	+	127	18
+	+	128	20
+	+	129	20
+	+	130	21
+	+	114	0
+	+	94	0
+	+	123	8
+	+	124	9
+	+	123	11
+	+	124	11
+	+	127	13
+	+	128	11
+	+	123	9
+	+	124	9
+	+	123	15
+	+	124	15
+	+	123	10
+	+	124	9
+	+	123	10
+	+	124	10
+	+	129	13
+	+	130	11
+	+	346	0
+	+	126	25
+	+	132	34
+	+	132	67
+	+	132	11
+	+	132	35
+	+	132	59
+	+	132	63
+	+	133	3
+	+	137	0
+	+	133	6
+	+	137	0
+	+	134	0
+	+	133	13
+	+	134	14
+	+	135	0
+	+	136	0
+	+	135	14
+	+	136	15
+	+	346	6
+	+	346	0
+	+	152	5
+	+	149	14
+	+	151	20
+	+	160	0
+	+	160	10
+	+	160	33
+	+	160	22
+	+	160	69
+	+	151	46
+	+	151	29
+	+	152	0
+	+	160	0
+	+	186	0
+	+	185	58
+	+	227	0
+	+	226	31
+	+	228	55
+	+	229	0
+	+	230	0
+	+	278	4
+	+	289	0
+	+	278	12
+	+	279	10
+	+	279	0
+	+	289	0
+	+	279	0
+	+	288	0
+	+	230	0
+	+	279	0
+	+	282	10
+	+	279	0
+	+	280	10
+	+	281	0
+	+	283	0
+	+	287	10
+	+	286	76
+	+	284	12
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\FAQ.md
+	*	1506991833	0
+	"	8	0
+
+> C:\Users\User\Documents\GitHub\learn-javascript-ajax\lecture15\test.php
+	*	1506991717	0
+	"	11	0
+	.	10	0
+	+	10	0
+	+	8	0
+	+	6	0
+	+	8	0
+	+	10	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-vim\index.md
+	*	1506989606	0
+	"	146	27
+	^	146	28
+	.	146	27
+	+	10	0
+	+	40	0
+	+	45	0
+	+	86	36
+	+	81	0
+	+	86	35
+	+	87	0
+	+	88	0
+	+	91	0
+	+	92	0
+	+	106	0
+	+	111	62
+	+	112	0
+	+	123	55
+	+	125	0
+	+	126	0
+	+	143	0
+	+	144	10
+	+	145	1
+	+	146	4
+	+	145	26
+	+	146	27
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-10-02.md
+	*	1506988951	0
+	"	7	0
+	.	7	0
+	+	2	0
+	+	1	1
+	+	3	44
+	+	4	0
+	+	4	70
+	+	5	0
+	+	5	22
+	+	6	0
+	+	11	24
+	+	13	24
+	+	12	40
+	+	13	53
+	+	7	61
+	+	7	62
+	+	7	10
+	+	7	60
+	+	7	36
+	+	7	33
+	+	7	0
+	+	5	0
+	+	4	0
+	+	7	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-vim\So no hard coding today, just twitching with my vimrc.
+	*	1506988830	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\diary-index.md
+	*	1506988673	0
+	"	23	0
+	^	22	15
+	.	22	14
+	+	1	0
+	+	1	8
+	+	1	10
+	+	1	0
+	+	1	8
+	+	1	22
+	+	1	8
+	+	1	21
+	+	1	20
+	+	1	19
+	+	1	23
+	+	1	22
+	+	1	0
+	+	23	22
+	+	21	0
+	+	22	14
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\index.md
+	*	1506988664	0
+	"	9	6
+	^	13	53
+	.	9	0
+	+	9	0
+	+	12	36
+	+	12	35
+	+	14	0
+	+	15	18
+	+	17	9
+	+	19	0
+	+	27	0
+	+	19	8
+	+	24	140
+	+	26	8
+	+	29	4
+	+	19	1
+	+	24	5
+	+	25	6
+	+	26	4
+	+	24	13
+	+	29	22
+	+	30	0
+	+	24	0
+	+	19	53
+	+	24	0
+	+	21	181
+	+	22	2
+	+	24	2
+	+	24	0
+	+	19	0
+	+	21	1
+	+	20	0
+	+	22	2
+	+	24	2
+	+	21	4
+	+	27	2
+	+	21	6
+	+	16	0
+	+	27	0
+	+	18	0
+	+	27	0
+	+	28	0
+	+	24	0
+	+	23	2
+	+	24	2
+	+	22	0
+	+	9	0
+	+	12	0
+	+	13	53
+	+	13	52
+	+	9	0
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\log.md
+	*	1506962631	0
+	"	1043	19
+	^	1031	0
+	.	1032	0
+	+	957	0
+	+	958	0
+	+	957	0
+	+	955	52
+	+	960	22
+	+	962	35
+	+	953	63
+	+	962	34
+	+	967	0
+	+	964	0
+	+	967	0
+	+	968	22
+	+	970	0
+	+	976	22
+	+	975	0
+	+	974	22
+	+	978	0
+	+	987	0
+	+	985	22
+	+	987	62
+	+	989	53
+	+	991	0
+	+	993	29
+	+	995	42
+	+	997	190
+	+	995	52
+	+	991	105
+	+	999	0
+	+	1001	0
+	+	997	140
+	+	643	0
+	+	644	0
+	+	1148	19
+	+	1133	19
+	+	1148	19
+	+	1149	0
+	+	1004	21
+	+	1006	46
+	+	1008	22
+	+	1002	32
+	+	1013	70
+	+	1015	13
+	+	1015	211
+	+	1015	100
+	+	1015	155
+	+	1016	0
+	+	1015	155
+	+	1017	46
+	+	1017	41
+	+	1018	0
+	+	1017	40
+	+	1011	31
+	+	1020	22
+	+	1022	41
+	+	1023	0
+	+	1024	13
+	+	1025	0
+	+	1026	0
+	+	1030	35
+	+	1025	0
+	+	1026	0
+	+	1027	0
+	+	1026	25
+	+	1031	0
+	+	1032	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-18.md
+	*	1506962417	0
+	"	11	45
+	^	10	0
+	.	1	2
+	+	1	19
+	+	2	0
+	+	3	72
+	+	4	0
+	+	15	0
+	+	3	43
+	+	5	32
+	+	9	0
+	+	10	36
+	+	14	0
+	+	10	38
+	+	10	47
+	+	11	23
+	+	12	0
+	+	11	23
+	+	12	0
+	+	11	45
+	+	12	61
+	+	13	35
+	+	6	0
+	+	7	86
+	+	8	0
+	+	1	2
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-16.md
+	*	1506962239	0
+	"	21	20
+	^	9	111
+	.	1	0
+	+	1	2
+	+	2	50
+	+	3	32
+	+	4	85
+	+	5	0
+	+	6	55
+	+	7	57
+	+	8	37
+	+	10	0
+	+	11	8
+	+	13	16
+	+	29	0
+	+	14	7
+	+	17	7
+	+	20	9
+	+	26	13
+	+	14	8
+	+	14	122
+	+	12	2
+	+	30	2
+	+	12	4
+	+	14	8
+	+	17	9
+	+	16	13
+	+	17	8
+	+	18	1
+	+	19	21
+	+	14	8
+	+	17	29
+	+	20	2
+	+	23	2
+	+	20	8
+	+	21	2
+	+	22	12
+	+	16	10
+	+	19	9
+	+	22	9
+	+	20	9
+	+	16	0
+	+	15	2
+	+	17	30
+	+	20	45
+	+	24	4
+	+	15	8
+	+	18	8
+	+	21	8
+	+	24	70
+	+	25	16
+	+	27	0
+	+	28	31
+	+	26	15
+	+	15	0
+	+	9	110
+	+	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-13.md
+	*	1506962040	0
+	"	9	0
+	^	26	10
+	.	26	6
+	+	6	55
+	+	6	0
+	+	21	22
+	+	21	17
+	+	21	0
+	+	3	47
+	+	6	0
+	+	7	0
+	+	8	59
+	+	10	0
+	+	11	0
+	+	10	75
+	+	21	0
+	+	17	70
+	+	21	0
+	+	18	22
+	+	21	0
+	+	19	22
+	+	21	0
+	+	22	22
+	+	22	0
+	+	14	93
+	+	15	92
+	+	22	0
+	+	16	84
+	+	22	0
+	+	18	84
+	+	22	0
+	+	23	22
+	+	23	0
+	+	24	0
+	+	25	113
+	+	26	127
+	+	26	128
+	+	27	0
+	+	25	127
+	+	27	0
+	+	26	6
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-10.md
+	*	1506961921	0
+	"	1	0
+	^	3	89
+	.	4	0
+	+	2	0
+	+	3	52
+	+	3	89
+	+	4	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-08.md
+	*	1506961917	0
+	"	1	0
+	^	2	0
+	.	1	30
+	+	2	0
+	+	1	30
+
+> C:\Users\User\Documents\gVimPortable\[2017-09-08](2017-09-08)
+	*	1506961900	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-scrapbook\midnight-express\Ep01.md
+	*	1506961641	0
+	"	26	4
+	^	16	42
+	.	16	27
+	+	55	3
+	+	55	0
+	+	58	0
+	+	49	0
+	+	49	22
+	+	23	0
+	+	30	0
+	+	23	1
+	+	22	0
+	+	24	33
+	+	25	0
+	+	26	5
+	+	27	36
+	+	28	0
+	+	29	0
+	+	28	9
+	+	49	0
+	+	31	0
+	+	32	5
+	+	33	0
+	+	28	27
+	+	30	10
+	+	33	63
+	+	35	1
+	+	36	45
+	+	37	0
+	+	49	0
+	+	37	48
+	+	38	0
+	+	39	5
+	+	40	0
+	+	37	29
+	+	40	2
+	+	36	27
+	+	40	14
+	+	41	18
+	+	42	27
+	+	43	0
+	+	44	33
+	+	49	0
+	+	57	0
+	+	49	0
+	+	55	0
+	+	44	33
+	+	44	42
+	+	16	63
+	+	18	18
+	+	34	0
+	+	33	63
+	+	34	0
+	+	45	71
+	+	55	3
+	+	7	6
+	+	59	37
+	+	6	7
+	+	49	0
+	+	55	0
+	+	46	0
+	+	47	3
+	+	48	0
+	+	6	39
+	+	55	3
+	+	7	6
+	+	6	14
+	+	50	7
+	+	50	15
+	+	55	0
+	+	50	15
+	+	6	21
+	+	50	21
+	+	58	5
+	+	57	1
+	+	50	8
+	+	51	0
+	+	52	31
+	+	53	0
+	+	54	1
+	+	54	47
+	+	56	0
+	+	55	28
+	+	57	0
+	+	56	3
+	+	54	1
+	+	52	100
+	+	53	0
+	+	52	73
+	+	55	0
+	+	56	36
+	+	2	7
+	+	5	0
+	+	3	19
+	+	4	23
+	+	12	21
+	+	18	39
+	+	16	27
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-scrapbook\index.md
+	*	1506958598	0
+	"	11	3
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-scrapbook\midnight-express\news\indexME-news.md
+	*	1506958293	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-scrapbook\midnight-express\Ep02.md
+	*	1506958277	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-scrapbook\midnight-express\indexME.md
+	*	1506957286	0
+	"	7	1
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\README.md
+	*	1506951798	0
+	"	1	0
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\rules.md
+	*	1506951776	0
+	"	12	0
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\GitHub 2017-06-06.log
+	*	1506951749	0
+	"	1	0
+
+> C:\Users\User\Documents\GitHub\GitHub 2017-06-07.log
+	*	1506951733	0
+	"	1	0
+
+> C:\Users\User\Documents\GitHub\GitHub 2017-06-12.log
+	*	1506950578	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> C:\Users\User\Documents\GitHub\Title font.md
+	*	1506950446	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\App\readme.txt
+	*	1506950350	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\App\vim\vim80\doc\help.txt
+	*	1506950322	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\App\vim\vim80\doc\options.txt
+	*	1506949936	0
+	"	2686	5
+
+> C:\Users\User\Documents\gVimPortable\help.html
+	*	1506948184	0
+	"	1	0
+
+> ~\_viminfo
+	*	1506947144	0
+	"	124	0
+
+> C:\Users\User\Documents\STUDY\2017-18 Fall\_electronic music\1.10_Ourfirstsynth.js
+	*	1506940266	0
+	"	8	28
+	^	9	1
+	.	9	0
+	+	3	71
+	+	10	73
+	+	8	0
+	+	6	0
+	+	5	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	9	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170929)\vimwiki-cujdT1\LAWS6021B-w4.md
+	*	1506732311	0
+	"	81	50
+	^	79	51
+	.	79	50
+	+	7	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	13	0
+	+	26	0
+	+	28	0
+	+	30	0
+	+	38	0
+	+	47	0
+	+	58	0
+	+	59	0
+	+	65	0
+	+	68	0
+	+	82	0
+	+	87	62
+	+	88	42
+	+	89	87
+	+	77	53
+	+	78	68
+	+	79	50
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-electronic-music\w1\note.md
+	*	1506670529	0
+	"	410	0
+	^	422	47
+	.	410	0
+	+	250	47
+	+	251	0
+	+	252	0
+	+	251	0
+	+	219	34
+	+	220	0
+	+	251	2
+	+	312	0
+	+	258	0
+	+	259	0
+	+	331	1
+	+	312	0
+	+	259	0
+	+	312	0
+	+	312	14
+	+	312	59
+	+	312	36
+	+	312	44
+	+	312	15
+	+	313	33
+	+	314	27
+	+	312	59
+	+	315	0
+	+	329	0
+	+	316	0
+	+	328	0
+	+	317	3
+	+	327	3
+	+	318	0
+	+	312	6
+	+	313	0
+	+	314	0
+	+	331	0
+	+	331	26
+	+	331	37
+	+	331	7
+	+	313	6
+	+	331	2
+	+	331	1
+	+	331	0
+	+	331	1
+	+	331	7
+	+	364	0
+	+	332	1
+	+	365	0
+	+	368	0
+	+	403	0
+	+	410	0
+	+	331	36
+	+	332	31
+	+	365	41
+	+	366	36
+	+	365	11
+	+	366	6
+	+	333	0
+	+	363	0
+	+	334	0
+	+	369	0
+	+	382	0
+	+	370	28
+	+	371	0
+	+	372	69
+	+	372	70
+	+	373	0
+	+	374	74
+	+	375	3
+	+	380	0
+	+	376	0
+	+	381	0
+	+	368	0
+	+	369	0
+	+	383	0
+	+	402	0
+	+	384	3
+	+	390	3
+	+	385	0
+	+	391	0
+	+	402	0
+	+	391	0
+	+	367	0
+	+	402	0
+	+	365	0
+	+	403	33
+	+	404	29
+	+	405	0
+	+	406	0
+	+	408	532
+	+	406	0
+	+	409	0
+	+	410	32
+	+	411	28
+	+	412	0
+	+	413	0
+	+	425	0
+	+	413	0
+	+	410	0
+
+> C:\Users\User\Documents\STUDY\2017-18 Fall\_electronic music\1.20_Fiddlingwiththefilter.js
+	*	1506670489	0
+	"	23	0
+	^	30	31
+	.	30	30
+	+	1	0
+	+	25	25
+	+	18	42
+	+	20	23
+	+	21	0
+	+	25	45
+	+	22	0
+	+	24	82
+	+	5	53
+	+	7	0
+	+	5	65
+	+	27	19
+	+	28	0
+	+	14	0
+	+	14	73
+	+	28	17
+	+	31	4
+	+	28	17
+	+	29	50
+	+	28	26
+	+	5	51
+	+	6	0
+	+	28	31
+	+	29	40
+	+	30	22
+	+	32	0
+	+	30	30
+
+> C:\Users\User\Documents\STUDY\2017-18 Fall\_electronic music\1.16 Modulation with an oscillator.js
+	*	1506668814	0
+	"	35	0
+	^	21	49
+	.	21	48
+	+	1	0
+	+	21	48
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-electronic-music\index.md
+	*	1506668522	0
+	"	5	0
+	.	6	0
+	+	1	0
+	+	5	0
+	+	2	0
+	+	1	15
+	+	5	12
+	+	5	11
+	+	4	5
+	+	5	4
+	+	3	8
+	+	6	98
+	+	6	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-electronic-music\w1\index.md
+	*	1506668096	0
+	"	34	3
+	^	34	4
+	.	34	3
+	+	1	0
+	+	9	0
+	+	2	13
+	+	8	19
+	+	8	18
+	+	1	1
+	+	6	0
+	+	7	0
+	+	6	2
+	+	11	4
+	+	12	0
+	+	10	0
+	+	12	0
+	+	8	2
+	+	13	2
+	+	16	3
+	+	17	3
+	+	18	3
+	+	19	3
+	+	20	0
+	+	21	2
+	+	10	5
+	+	11	5
+	+	15	0
+	+	24	3
+	+	24	40
+	+	24	0
+	+	26	4
+	+	27	4
+	+	28	4
+	+	29	4
+	+	30	4
+	+	31	4
+	+	32	4
+	+	33	4
+	+	34	4
+	+	35	4
+	+	36	4
+	+	37	4
+	+	38	0
+	+	42	4
+	+	43	4
+	+	44	4
+	+	45	4
+	+	46	0
+	+	23	0
+	+	41	0
+	+	9	0
+	+	10	0
+	+	39	2
+	+	3	11
+	+	2	13
+	+	3	13
+	+	10	3
+	+	11	3
+	+	15	3
+	+	16	3
+	+	17	3
+	+	18	3
+	+	19	3
+	+	23	3
+	+	24	3
+	+	25	3
+	+	26	3
+	+	27	3
+	+	28	3
+	+	29	3
+	+	30	3
+	+	31	3
+	+	32	3
+	+	12	0
+	+	33	3
+	+	34	3
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-29.md
+	*	1506664528	0
+	"	5	56
+	^	5	70
+	.	5	69
+	+	1	1
+	+	2	0
+	+	3	73
+	+	4	0
+	+	5	69
+
+> ~\vimfiles\ftplugin\markdown.vim
+	*	1506662870	0
+	"	4	2
+	^	50	15
+	.	1	0
+	+	1	0
+
+> C:\Users\User\Documents\STUDY\2017-18 Fall\_electronic music\1.14_Keyboard controlled synth.js
+	*	1506661589	0
+	"	23	0
+	^	43	0
+	.	1	0
+	+	1	0
+
+> C:\Users\User\Documents\STUDY\2017-18 Fall\_electronic music\1.12_Mouse controlled synth.js
+	*	1506660421	0
+	"	20	0
+	^	20	0
+	.	1	0
+	+	26	29
+	+	26	0
+	+	25	6
+	+	26	0
+	+	26	9
+	+	26	47
+	+	26	22
+	+	26	0
+	+	26	26
+	+	26	4
+	+	26	0
+	+	25	0
+	+	1	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6021B-w5.md
+	*	1506657034	0
+	"	1	0
+	^	3	0
+	.	3	0
+	+	1	20
+	+	2	0
+	+	3	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6021B.md
+	*	1506584954	0
+	"	20	13
+	^	20	20
+	.	20	21
+	+	17	56
+	+	18	22
+	+	17	21
+	+	18	41
+	+	29	22
+	+	31	0
+	+	29	22
+	+	31	51
+	+	32	0
+	+	29	20
+	+	30	9
+	+	32	20
+	+	33	31
+	+	15	6
+	+	14	5
+	+	15	5
+	+	14	5
+	+	18	14
+	+	19	44
+	+	20	21
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6021B-w4.md
+	*	1506584904	0
+	"	2	0
+	^	92	18
+	.	1	18
+	+	41	0
+	+	40	77
+	+	35	0
+	+	38	0
+	+	40	77
+	+	39	0
+	+	40	77
+	+	32	187
+	+	36	0
+	+	32	112
+	+	33	122
+	+	36	0
+	+	38	0
+	+	40	39
+	+	40	77
+	+	8	2
+	+	3	0
+	+	4	0
+	+	3	37
+	+	21	2
+	+	35	2
+	+	36	0
+	+	37	0
+	+	38	0
+	+	42	0
+	+	41	0
+	+	42	28
+	+	37	0
+	+	48	89
+	+	50	0
+	+	50	251
+	+	51	59
+	+	52	0
+	+	51	0
+	+	59	65
+	+	58	126
+	+	58	48
+	+	58	118
+	+	59	0
+	+	60	0
+	+	61	0
+	+	60	80
+	+	67	0
+	+	64	118
+	+	62	96
+	+	64	72
+	+	68	0
+	+	66	0
+	+	64	24
+	+	68	91
+	+	64	0
+	+	70	0
+	+	69	0
+	+	74	0
+	+	73	202
+	+	57	103
+	+	74	108
+	+	75	0
+	+	82	0
+	+	83	0
+	+	86	0
+	+	93	0
+	+	94	0
+	+	95	0
+	+	87	0
+	+	88	16
+	+	89	0
+	+	90	34
+	+	90	15
+	+	90	21
+	+	91	0
+	+	90	58
+	+	92	0
+	+	92	87
+	+	84	0
+	+	85	0
+	+	42	0
+	+	49	0
+	+	48	28
+	+	55	2
+	+	76	0
+	+	80	0
+	+	76	37
+	+	77	0
+	+	78	49
+	+	79	14
+	+	81	0
+	+	80	45
+	+	79	0
+	+	80	0
+	+	79	62
+	+	76	13
+	+	65	35
+	+	66	98
+	+	1	18
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\index.md
+	*	1506576173	0
+	"	18	6
+	^	20	35
+	.	20	35
+	+	19	1
+	+	20	35
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6015B.md
+	*	1506576133	0
+	"	1	0
+	^	17	87
+	.	17	85
+	+	17	87
+	+	17	85
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6005B.md
+	*	1506576118	0
+	"	1	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6004B.md
+	*	1506576115	0
+	"	1	0
+	^	19	44
+	.	19	43
+	+	17	5
+	+	19	43
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6001B.md
+	*	1506576111	0
+	"	15	1
+	^	17	24
+	.	17	23
+	+	17	20
+	+	17	19
+	+	17	23
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6001B-w1.md
+	*	1506576109	0
+	"	1	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6021B-w3.md
+	*	1506575980	0
+	"	65	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6004B-w4.md
+	*	1506571764	0
+	"	21	0
+	^	21	0
+	.	30	0
+	+	1	16
+	+	1	0
+	+	2	28
+	+	3	0
+	+	4	18
+	+	1	9
+	+	1	0
+	+	5	54
+	+	6	0
+	+	7	20
+	+	8	0
+	+	9	54
+	+	12	0
+	+	34	0
+	+	9	56
+	+	10	0
+	+	11	7
+	+	13	5
+	+	14	14
+	+	15	0
+	+	16	12
+	+	17	33
+	+	16	40
+	+	17	34
+	+	18	0
+	+	19	19
+	+	20	32
+	+	32	0
+	+	33	0
+	+	20	23
+	+	21	0
+	+	23	7
+	+	22	13
+	+	24	0
+	+	31	0
+	+	25	48
+	+	26	6
+	+	27	3
+	+	28	10
+	+	29	0
+	+	30	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\javascript\data-structure\ch00.md
+	*	1506571369	0
+	"	126	0
+	^	126	0
+	.	127	0
+	+	50	10
+	+	54	0
+	+	55	0
+	+	56	26
+	+	57	0
+	+	58	28
+	+	59	0
+	+	60	0
+	+	61	0
+	+	61	84
+	+	61	95
+	+	62	0
+	+	63	50
+	+	65	0
+	+	64	27
+	+	63	16
+	+	66	0
+	+	67	0
+	+	68	19
+	+	69	17
+	+	70	17
+	+	71	7
+	+	63	7
+	+	71	31
+	+	73	0
+	+	72	54
+	+	74	0
+	+	75	44
+	+	77	0
+	+	76	26
+	+	23	0
+	+	24	0
+	+	29	0
+	+	24	58
+	+	25	38
+	+	26	17
+	+	28	0
+	+	27	26
+	+	78	0
+	+	85	60
+	+	86	38
+	+	87	0
+	+	88	17
+	+	90	0
+	+	89	26
+	+	79	0
+	+	80	0
+	+	79	2
+	+	89	11
+	+	91	0
+	+	92	16
+	+	93	0
+	+	94	3
+	+	95	0
+	+	96	14
+	+	97	29
+	+	98	33
+	+	100	0
+	+	99	25
+	+	101	16
+	+	102	0
+	+	103	0
+	+	105	28
+	+	105	41
+	+	107	0
+	+	108	2
+	+	105	39
+	+	107	0
+	+	105	40
+	+	109	0
+	+	110	28
+	+	111	0
+	+	112	35
+	+	113	54
+	+	114	16
+	+	112	8
+	+	113	12
+	+	114	16
+	+	81	0
+	+	82	0
+	+	84	0
+	+	83	0
+	+	115	0
+	+	118	0
+	+	116	0
+	+	117	0
+	+	116	2
+	+	126	0
+	+	126	3
+	+	127	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-js\index.md
+	*	1506568573	0
+	"	8	4
+	^	8	50
+	.	8	0
+	+	9	12
+	+	10	0
+	+	11	0
+	+	13	25
+	+	10	0
+	+	11	0
+	+	14	0
+	+	17	0
+	+	20	0
+	+	21	0
+	+	25	0
+	+	26	0
+	+	28	0
+	+	29	2
+	+	15	0
+	+	16	0
+	+	15	34
+	+	30	0
+	+	33	26
+	+	35	0
+	+	34	58
+	+	35	0
+	+	36	0
+	+	51	16
+	+	52	15
+	+	53	27
+	+	54	0
+	+	55	16
+	+	56	25
+	+	63	0
+	+	57	11
+	+	58	11
+	+	59	13
+	+	60	24
+	+	61	0
+	+	62	0
+	+	33	0
+	+	31	0
+	+	32	0
+	+	31	29
+	+	51	0
+	+	37	0
+	+	49	0
+	+	50	0
+	+	37	2
+	+	43	0
+	+	48	1
+	+	37	3
+	+	38	16
+	+	40	0
+	+	39	9
+	+	40	8
+	+	42	0
+	+	41	9
+	+	44	0
+	+	47	0
+	+	45	0
+	+	46	29
+	+	8	48
+	+	8	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-electronic-music\w1\1.10_OurFirstSynth.js.md
+	*	1506510826	0
+	"	1	0
+	^	16	4
+	.	1	0
+	+	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-fcc\intermediate-algorithm-scripting\diff-two-arrays.md
+	*	1506432664	0
+	"	16	0
+	^	29	17
+	.	20	30
+	+	1	1
+	+	2	0
+	+	3	6
+	+	4	26
+	+	5	0
+	+	6	31
+	+	12	2
+	+	7	39
+	+	11	4
+	+	8	30
+	+	10	8
+	+	9	29
+	+	13	0
+	+	14	15
+	+	7	19
+	+	15	0
+	+	16	0
+	+	18	5
+	+	19	11
+	+	24	0
+	+	23	3
+	+	22	7
+	+	21	11
+	+	7	23
+	+	20	24
+	+	25	0
+	+	26	0
+	+	28	0
+	+	29	16
+	+	26	3
+	+	27	3
+	+	29	14
+	+	20	30
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-fcc\index.md
+	*	1506432050	0
+	"	5	11
+	^	5	72
+	.	5	71
+	+	24	0
+	+	24	22
+	+	24	14
+	+	24	4
+	+	24	12
+	+	24	32
+	+	24	21
+	+	24	4
+	+	24	38
+	+	24	22
+	+	24	4
+	+	24	25
+	+	24	4
+	+	24	42
+	+	24	4
+	+	24	6
+	+	24	60
+	+	24	34
+	+	24	4
+	+	24	17
+	+	24	18
+	+	24	0
+	+	24	9
+	+	24	0
+	+	24	23
+	+	24	5
+	+	24	13
+	+	24	6
+	+	24	14
+	+	24	22
+	+	24	6
+	+	24	4
+	+	24	46
+	+	24	6
+	+	24	22
+	+	24	14
+	+	24	41
+	+	24	15
+	+	24	62
+	+	24	0
+	+	24	76
+	+	24	62
+	+	24	0
+	+	24	14
+	+	24	5
+	+	24	4
+	+	24	5
+	+	24	4
+	+	24	5
+	+	24	0
+	+	24	7
+	+	1	0
+	+	4	0
+	+	1	0
+	+	24	48
+	+	24	0
+	+	1	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	4	0
+	+	24	1
+	+	2	0
+	+	4	0
+	+	24	0
+	+	5	0
+	+	4	92
+	+	4	91
+	+	13	16
+	+	4	96
+	+	4	92
+	+	4	5
+	+	24	0
+	+	5	0
+	+	6	0
+	+	5	0
+	+	6	0
+	+	5	71
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6001B-w3.md
+	*	1506432035	0
+	"	17	0
+	^	34	0
+	.	31	0
+	+	35	119
+	+	35	28
+	+	35	160
+	+	35	0
+	+	35	47
+	+	35	0
+	+	35	64
+	+	35	93
+	+	35	0
+	+	35	68
+	+	35	2
+	+	35	4
+	+	35	61
+	+	35	216
+	+	35	188
+	+	35	0
+	+	35	295
+	+	35	0
+	+	35	90
+	+	35	137
+	+	35	110
+	+	35	0
+	+	35	60
+	+	35	0
+	+	35	111
+	+	35	27
+	+	35	106
+	+	35	199
+	+	35	152
+	+	35	0
+	+	35	17
+	+	35	0
+	+	35	30
+	+	35	0
+	+	35	7
+	+	35	79
+	+	35	24
+	+	35	0
+	+	35	15
+	+	35	0
+	+	35	80
+	+	35	60
+	+	35	0
+	+	35	63
+	+	35	0
+	+	35	20
+	+	35	0
+	+	35	132
+	+	35	20
+	+	35	95
+	+	35	0
+	+	35	104
+	+	35	136
+	+	35	189
+	+	35	63
+	+	35	137
+	+	35	0
+	+	35	43
+	+	35	0
+	+	34	0
+	+	35	0
+	+	1	0
+	+	5	0
+	+	16	0
+	+	20	0
+	+	31	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-fcc\intermediate-algorithm-scripting\sum-all-numbers-in-a-range.md
+	*	1506422007	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-26.md
+	*	1506421929	0
+	"	5	75
+	^	5	76
+	.	5	75
+	+	1	1
+	+	2	0
+	+	3	30
+	+	4	28
+	+	5	75
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-09-03_loremipsum.md
+	*	1506421354	0
+	"	35	9
+	^	37	16
+	.	37	15
+	+	41	0
+	+	38	0
+	+	38	1
+	+	38	9
+	+	38	7
+	+	38	8
+	+	38	0
+	+	21	0
+	+	22	0
+	+	20	25
+	+	37	16
+	+	24	4
+	+	27	0
+	+	28	0
+	+	37	15
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-06-15_jQueryday1.html
+	*	1506421326	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\note-fcc\intermediate-algorithm-scripting\sum-all-numbers-in-a-range.js.md
+	*	1506306140	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	1	0
+	+	5	8
+	+	5	3
+	+	36	0
+	+	36	2
+	+	5	3
+	+	6	0
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-25.md
+	*	1506303470	0
+	"	11	0
+	^	1	3
+	.	1	2
+	+	1	19
+	+	2	0
+	+	3	0
+	+	2	40
+	+	3	0
+	+	7	0
+	+	8	0
+	+	3	0
+	+	6	11
+	+	4	1
+	+	5	2
+	+	6	2
+	+	9	0
+	+	9	42
+	+	10	76
+	+	11	40
+	+	1	2
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-24.md
+	*	1506303164	0
+	"	1	2
+	^	1	3
+	.	1	2
+	+	1	18
+	+	2	0
+	+	1	1
+	+	4	0
+	+	3	0
+	+	5	45
+	+	8	48
+	+	6	47
+	+	7	61
+	+	1	2
+
+> C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-20.md
+	*	1506303156	0
+	"	20	2
+	^	1	3
+	.	1	2
+	+	1	1
+	+	2	0
+	+	3	175
+	+	4	0
+	+	5	134
+	+	6	0
+	+	7	21
+	+	8	67
+	+	9	25
+	+	9	27
+	+	9	126
+	+	10	0
+	+	11	142
+	+	21	0
+	+	22	41
+	+	11	141
+	+	12	0
+	+	13	111
+	+	20	167
+	+	14	0
+	+	20	0
+	+	15	14
+	+	16	14
+	+	17	15
+	+	15	1
+	+	18	40
+	+	19	0
+	+	20	86
+	+	20	164
+	+	20	167
+	+	21	0
+	+	14	0
+	+	15	0
+	+	14	0
+	+	14	53
+	+	15	0
+	+	1	2
+
+> C:\Users\User\.gitconfig
+	*	1506302277	0
+	"	14	12
+	^	13	8
+	.	15	0
+	+	11	7
+	+	12	41
+	+	15	0
+	+	12	40
+	+	14	11
+	+	12	11
+	+	13	8
+	+	15	0
+
+> C:\Users\User\Desktop\BCT\.git\config
+	*	1506302161	0
+	"	9	8
+	^	15	5
+	.	12	52
+	+	11	4
+	+	15	0
+	+	16	0
+	+	14	34
+	+	13	10
+	+	14	33
+	+	14	0
+	+	13	4
+	+	16	0
+	+	13	0
+	+	12	52
+
+> C:\Users\User\Desktop\BCT\.git\index
+	*	1506301216	0
+	"	1	0
+
+> C:\Users\User\Desktop\BCT\.git\refs\heads\master
+	*	1506301150	0
+	"	1	0
+
+> C:\Users\User\Desktop\BCT\.git\refs\heads\marketing
+	*	1506301047	0
+	"	1	0
+
+> C:\Users\User\Desktop\BCT\.git\refs\heads\check_branch
+	*	1506301045	0
+	"	1	0
+
+> C:\Users\User\Desktop\BCT\.git\HEAD
+	*	1506301009	0
+	"	1	0
+
+> C:\Users\User\Desktop\BCT\.git\description
+	*	1506300932	0
+	"	1	0
+
+> C:\Users\User\Documents\gVimPortable\App\vim\vim80\doc\cmdline.txt
+	*	1506248613	0
+	"	573	35
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-09-23_twitchtv_draft.js
+	*	1506167790	0
+	"	50	0
+	^	76	0
+	.	1	0
+	+	77	12
+	+	77	0
+	+	77	15
+	+	77	13
+	+	77	0
+	+	77	4
+	+	77	21
+	+	77	40
+	+	77	39
+	+	77	0
+	+	77	42
+	+	77	0
+	+	77	30
+	+	77	38
+	+	77	0
+	+	77	11
+	+	77	0
+	+	77	16
+	+	77	8
+	+	77	0
+	+	77	16
+	+	77	0
+	+	77	73
+	+	77	23
+	+	77	4
+	+	77	10
+	+	77	19
+	+	77	0
+	+	77	16
+	+	77	3
+	+	77	0
+	+	77	45
+	+	77	0
+	+	77	4
+	+	77	31
+	+	77	6
+	+	77	0
+	+	77	75
+	+	77	35
+	+	77	42
+	+	77	8
+	+	77	0
+	+	77	4
+	+	77	31
+	+	77	32
+	+	77	3
+	+	77	43
+	+	77	7
+	+	77	11
+	+	77	4
+	+	77	0
+	+	77	7
+	+	77	0
+	+	77	46
+	+	77	34
+	+	77	12
+	+	77	0
+	+	77	20
+	+	77	12
+	+	77	32
+	+	77	28
+	+	77	0
+	+	77	16
+	+	77	0
+	+	77	4
+	+	77	0
+	+	77	26
+	+	77	41
+	+	77	36
+	+	77	0
+	+	76	0
+	+	1	0
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-09-22_twitchtv_multipleac.html
+	*	1506164782	0
+	"	23	0
+	^	23	0
+	.	1	0
+	+	31	7
+	+	31	0
+	+	31	18
+	+	31	46
+	+	31	18
+	+	31	75
+	+	31	131
+	+	31	102
+	+	31	114
+	+	31	189
+	+	31	160
+	+	31	171
+	+	31	249
+	+	31	218
+	+	31	234
+	+	31	0
+	+	31	1
+	+	31	59
+	+	31	47
+	+	31	105
+	+	31	117
+	+	31	62
+	+	31	120
+	+	31	163
+	+	31	178
+	+	31	221
+	+	31	236
+	+	31	238
+	+	31	0
+	+	31	106
+	+	31	122
+	+	31	121
+	+	31	179
+	+	31	237
+	+	31	0
+	+	31	222
+	+	31	0
+	+	31	54
+	+	31	145
+	+	31	204
+	+	31	74
+	+	31	85
+	+	31	207
+	+	31	258
+	+	31	326
+	+	31	340
+	+	31	418
+	+	31	73
+	+	31	0
+	+	31	73
+	+	31	1
+	+	31	76
+	+	31	103
+	+	31	158
+	+	31	134
+	+	31	76
+	+	31	161
+	+	31	219
+	+	31	285
+	+	31	300
+	+	31	342
+	+	31	358
+	+	31	418
+	+	31	141
+	+	31	86
+	+	31	131
+	+	31	99
+	+	31	157
+	+	31	280
+	+	31	331
+	+	31	414
+	+	31	0
+	+	31	158
+	+	31	0
+	+	31	76
+	+	31	100
+	+	31	77
+	+	31	103
+	+	31	134
+	+	31	160
+	+	31	217
+	+	31	248
+	+	31	299
+	+	31	328
+	+	31	300
+	+	31	341
+	+	31	330
+	+	31	341
+	+	31	357
+	+	31	388
+	+	31	417
+	+	31	0
+	+	1	0
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-09-22_twitchtv_multipleac.js
+	*	1506159952	0
+	"	10	23
+	^	36	13
+	.	25	59
+	+	2	62
+	+	2	11
+	+	2	25
+	+	2	86
+	+	2	11
+	+	2	10
+	+	2	3
+	+	2	47
+	+	2	40
+	+	2	4
+	+	2	47
+	+	2	40
+	+	2	0
+	+	2	23
+	+	2	26
+	+	2	71
+	+	2	0
+	+	2	30
+	+	2	55
+	+	2	0
+	+	2	27
+	+	2	0
+	+	2	23
+	+	2	9
+	+	2	0
+	+	2	21
+	+	2	0
+	+	2	59
+	+	2	46
+	+	2	44
+	+	2	16
+	+	2	0
+	+	2	24
+	+	2	32
+	+	2	0
+	+	2	13
+	+	2	0
+	+	2	15
+	+	2	0
+	+	2	3
+	+	2	26
+	+	2	0
+	+	2	8
+	+	2	0
+	+	2	18
+	+	2	0
+	+	2	39
+	+	2	0
+	+	2	26
+	+	2	34
+	+	2	0
+	+	2	32
+	+	2	65
+	+	2	20
+	+	2	9
+	+	2	4
+	+	2	0
+	+	2	32
+	+	2	42
+	+	2	41
+	+	2	46
+	+	2	27
+	+	2	0
+	+	2	28
+	+	2	9
+	+	2	7
+	+	2	47
+	+	2	8
+	+	2	0
+	+	2	1
+	+	2	2
+	+	2	0
+	+	2	30
+	+	2	0
+	+	2	8
+	+	2	25
+	+	2	0
+	+	1	0
+	+	2	0
+	+	2	4
+	+	2	0
+	+	1	0
+	+	11	20
+	+	36	0
+	+	29	0
+	+	25	59
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\code\2017-09-22_twitchtv_draft.js
+	*	1506047673	0
+	"	7	8
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\gitignore
+	*	1506047006	0
+	"	4	0
+	^	2	3
+	.	2	2
+	+	3	5
+	+	3	4
+	+	2	3
+	+	3	1
+	+	2	2
+
+> C:\Users\User\Documents\GitHub\100-days-of-code_v.Newbie\.gitignore
+	*	1506046616	0
+	"	1	3
+	^	1	4
+	.	1	3
+	+	1	3
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6004B-w1.md
+	*	1505981461	0
+	"	1	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6001B-w2.md
+	*	1505979827	0
+	"	21	47
+	^	14	5
+	.	45	2
+	+	11	3
+	+	19	68
+	+	20	0
+	+	21	15
+	+	23	7
+	+	10	35
+	+	19	82
+	+	21	73
+	+	24	52
+	+	23	26
+	+	34	0
+	+	24	86
+	+	25	0
+	+	26	1
+	+	24	5
+	+	28	0
+	+	30	0
+	+	33	8
+	+	28	0
+	+	29	5
+	+	16	15
+	+	26	3
+	+	29	44
+	+	33	32
+	+	27	0
+	+	31	2
+	+	32	0
+	+	31	64
+	+	31	69
+	+	35	1
+	+	37	2
+	+	38	0
+	+	39	2
+	+	40	0
+	+	41	1
+	+	37	16
+	+	29	41
+	+	39	82
+	+	39	86
+	+	31	13
+	+	39	83
+	+	41	19
+	+	31	70
+	+	42	0
+	+	43	21
+	+	44	0
+	+	45	2
+	+	46	0
+	+	47	3
+	+	48	19
+	+	43	39
+	+	45	2
+	+	49	0
+	+	48	0
+	+	47	71
+	+	50	0
+	+	50	3
+	+	50	61
+	+	51	0
+	+	53	16
+	+	52	3
+	+	51	44
+	+	53	78
+	+	48	0
+	+	54	0
+	+	55	40
+	+	51	39
+	+	50	94
+	+	51	77
+	+	55	41
+	+	70	0
+	+	71	0
+	+	56	0
+	+	57	39
+	+	58	0
+	+	59	2
+	+	57	112
+	+	60	21
+	+	61	0
+	+	62	0
+	+	63	10
+	+	64	66
+	+	68	13
+	+	65	0
+	+	63	16
+	+	68	0
+	+	63	82
+	+	67	0
+	+	65	55
+	+	68	62
+	+	53	9
+	+	68	87
+	+	69	0
+	+	66	0
+	+	55	20
+	+	45	2
+
+> C:\Users\User\Desktop\cappuccino\.git\description
+	*	1505920531	0
+	"	1	0
+
+> C:\Users\User\Desktop\cappuccino\.git\config
+	*	1505920529	0
+	"	1	0
+
+> C:\Users\User\Desktop\cappuccino\.git\HEAD
+	*	1505920486	0
+	"	1	0
+
+> C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6015B-w3.md
+	*	1505742374	0
+	"	234	127
+	^	234	128
+	.	234	127
+	+	111	0
+	+	110	42
+	+	112	32
+	+	113	0
+	+	114	0
+	+	115	0
+	+	114	14
+	+	115	78
+	+	116	78
+	+	121	45
+	+	121	61
+	+	122	56
+	+	122	77
+	+	123	45
+	+	123	11
+	+	124	20
+	+	118	0
+	+	119	0
+	+	118	26
+	+	120	71
+	+	126	18
+	+	128	0
+	+	127	0
+	+	126	47
+	+	136	0
+	+	138	0
+	+	136	26
+	+	138	2
+	+	138	3
+	+	139	0
+	+	137	0
+	+	138	25
+	+	139	0
+	+	141	1
+	+	138	34
+	+	145	36
+	+	147	3
+	+	149	57
+	+	149	82
+	+	150	50
+	+	166	10
+	+	169	0
+	+	168	0
+	+	154	3
+	+	155	0
+	+	154	39
+	+	160	0
+	+	161	0
+	+	160	65
+	+	173	0
+	+	172	8
+	+	174	75
+	+	175	23
+	+	177	69
+	+	182	0
+	+	181	0
+	+	182	3
+	+	186	0
+	+	187	3
+	+	190	60
+	+	188	40
+	+	190	3
+	+	193	63
+	+	194	0
+	+	191	53
+	+	197	2
+	+	199	2
+	+	201	20
+	+	210	0
+	+	212	38
+	+	211	1
+	+	212	38
+	+	213	41
+	+	212	69
+	+	212	0
+	+	212	68
+	+	212	65
+	+	213	41
+	+	213	42
+	+	214	0
+	+	217	19
+	+	222	2
+	+	229	0
+	+	230	0
+	+	224	1
+	+	225	1
+	+	226	1
+	+	227	1
+	+	228	1
+	+	230	27
+	+	231	1
+	+	232	1
+	+	234	59
+	+	234	127
+
+> C:\Users\User\Documents\gVimPortable\ControlP
+	*	1505740874	0
+	"	4	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> C:\Users\User\Desktop\jsobject.js
+	*	1505706010	0
+	"	37	16
+	^	89	24
+	.	89	23
+	+	1	0
+	+	6	2
+	+	7	0
+	+	11	47
+	+	12	0
+	+	12	25
+	+	13	3
+	+	6	3
+	+	14	0
+	+	15	0
+	+	24	0
+	+	25	0
+	+	43	0
+	+	67	0
+	+	68	0
+	+	73	0
+	+	77	0
+	+	78	0
+	+	43	24
+	+	81	0
+	+	86	0
+	+	87	0
+	+	27	70
+	+	30	70
+	+	33	70
+	+	90	0
+	+	91	0
+	+	89	23
+
+> ~\vimfiles\pack\nbgportable\start\ctrlp.vim\doc\ctrlp.txt
+	*	1505700366	0
+	"	243	66
+
+> ~\vimfiles\pack\nbgportable\start\ex-visincr\doc\visincr.txt
+	*	1505700356	0
+	"	15	25
+	^	15	26
+
+> C:\Users\User\Documents\gVimPortable\App\vim\vim80\doc\eval.txt
+	*	1505700220	0
+	"	8087	8
+	^	8091	0
+
+> ~\vimfiles\doc\showmarks.txt
+	*	1505700146	0
+	"	198	38
+
+> C:\Users\User\Documents\gVimPortable\App\vim\vim80\doc\usr_01.txt
+	*	1505699987	0
+	"	24	0
+
+> ~\vimfiles\doc\ctrlp.txt
+	*	1505699911	0
+	"	16	4

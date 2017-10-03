@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\cappuccino\.git\description
+C:\Users\User\Desktop\cappuccino\.git\config
+C:\Users\User\Desktop\cappuccino\.git\HEAD
+C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6015B-w3.md
+C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\LAWS6015B.md
+C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1\index.md
+C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\index.md
+C:\Users\User\Desktop\jsobject.js
+C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\2017-09-18.md
+C:\Users\User\Documents\gVimPortable\vimwiki\vimwiki-coding\diary\diary-index.md
+C:\Users\User\Desktop\README.md
+C:\Users\User\Documents\gVimPortable\Data\settings\_vimrc
+C:\Users\User\Desktop\README_draft.md
