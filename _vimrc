@@ -32,68 +32,73 @@ endfunction
 " }}}
 " {{{ General setting 
 set autowrite " enable autosave
-set encoding=utf-8
-set fileencodings=utf-8,utf-16,big5,gb2312,gbk,gb18030,euc-jp,euc-kr,latin1
+set autochdir " change current directory to the file in buffer
+set encoding      =utf-8
+set fileencodings =utf-8,utf-16,big5,gb2312,gbk,gb18030,euc-jp,euc-kr,latin1
 
 set lazyredraw " Don't redraw while executing macros (good performance config)
 
 set magic " turn magic on for regular express
-set mouse=a " enable mouse support in console
+set mouse     =a " enable mouse support in console
 set showcmd
 
 set backup
 set writebackup
-set backupdir=C:\\Users\\User\\Documents\\gVimPortable_backup
-set directory=C:\\Users\\User\\Documents\\gVimPortable_backup\\temp
+set backupdir =C:\\Users\\User\\Documents\\gVimPortable_backup
+set directory =C:\\Users\\User\\Documents\\gVimPortable_backup\\temp
 set confirm
-set history=100
+set history   =100
 
 set novisualbell " don't beep
 set noerrorbells " don't beep
-
+set textwidth =100 " show wrap sign at 100th character
 set wildmenu
 " }}}
 " {{{ Visual setting
 set t_Co=256	" enable 256-color support, nicer colors
-colorscheme dracula
+colorscheme onedark
 syntax on
 set guifont=consolas:h14
 set linespace=3
 set cmdheight=2
+set colorcolumn=+1
 set cursorline	" show the current line
 set cursorcolumn
 " set foldcolumn=3 " add extra margin to the left
 set number " show line numbers
 set relativenumber " show relative line numbers
 set ruler  
-" set rulerformat=%55(%{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ %5l,%-6(%c%V%)\ %P%)
-highlight CursorLine cterm=bold ctermbg=DarkMagenta ctermfg=DarkMagenta
-highlight CursorColumn cterm=reverse ctermbg=DarkMagenta ctermfg=DarkMagenta
-highlight FoldColumn cterm=none ctermbg=DarkGray ctermfg=White
+" set rulerformat            =%55(%{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ %5l,%-6(%c%V%)\ %P%)
+highlight CursorLine cterm   =bold ctermbg=DarkMagenta ctermfg=DarkMagenta
+highlight CursorColumn cterm =reverse ctermbg=DarkMagenta ctermfg=DarkMagenta
+highlight FoldColumn cterm   =none ctermbg=DarkGray ctermfg=White
 " }}}
 " {{{ Statusline setting
 set laststatus=2 " show status line
 " custom status line
-set statusline=\PATH:\ %r%F\ \ \ \ \LINE:\ %l/%L/%P\ TIME:\ %{strftime('%Y-%m-%d/%H:%M:%S')}
+set statusline=\PATH:\ %r%.20F\ \ \ \ 
+set statusline+=\LINE:\ %03l/%03L\ \ \ 
+set statusline+=%=
+set statusline+=\TIME:\ %{strftime('%Y-%m-%d/%H:%M:%S')}
 " }}}
 " {{{ Search setting
 set ignorecase
 set smartcase
 set incsearch " enable increased search
 set hlsearch " highlight search result
-" highlight Search cterm=reverse ctermbg=none ctermfg=none
+" highlight Search cterm     =reverse ctermbg=none ctermfg=none
 " }}}
 " {{{ Indent setting
 set expandtab
 set autoindent
 set smartindent
 set smarttab
-set tabstop=4
-set shiftwidth=4
+set tabstop                  =4
+set shiftwidth               =4
 " }}}
 " {{{ Bracket setting
 set showmatch
-set mat=2 " How many tenths of a second to blink when matching brackets
+set mat                      =2 " How many tenths of a second to blink when matching brackets
 
 vnoremap $1 <esc>`>a)<esc>`<i(<esc>
 vnoremap $2 <esc>`>a]<esc>`<i[<esc>
@@ -114,6 +119,8 @@ inoremap $e ""<esc>i
 " {{{ Mapping setting
 let mapleader = "\<Space>"
 set backspace=indent,eol,start
+
+noremap <Ctrl> <Cap>
 
 " swap ; and : 
 nnoremap ; :
@@ -136,19 +143,20 @@ vmap <Left> <gv
 vmap <Right> >gv
 
 " move across tab with <tab> key
-noremap <tab> gt
-noremap <s-tab> gT
+noremap <C-tab> gt
+noremap <S-tab> gT
 
+" apply macros
+nnoremap Q @q
+vnoremap :norm @q<cr> 
+" {{{ Helper functions mapping
 " toggle between absolute and relative line number by helper functions
 noremap nm :call ToggleNumber()<CR>
 
 " toggle netrw by helper functions 
 noremap <Leader><Tab> :call VexToggle(getcwd())<CR>
 noremap <Leader>` :call VexToggle("")<CR>
-
-" apply macros
-nnoremap Q @q
-vnoremap :norm @q<cr> 
+" }}}
 " }}}
 " {{{ Abbreviation
 
@@ -157,8 +165,8 @@ iab clog console.log();
 iab teh the
 
 " }}}
-" {{{ Helper functions
-
+" {{{ Helper function
+" {{{ ToggleNumber()
 " toggle between number and relativenumber
 function! ToggleNumber()
     if(&relativenumber == 1)
@@ -167,20 +175,9 @@ function! ToggleNumber()
     else
         set relativenumber
     endif
-endfunc
-
-" strips trailing whitespace at the end of files. this
-" is called on buffer write in the autogroup above.
-function! <SID>StripTrailingWhitespaces()
-    " save last search & cursor position
-    let _s=@/
-    let l = line(".")
-    let c = col(".")
-    %s/\s\+$//e
-    let @/=_s
-    call cursor(l, c)
 endfunction
-
+"}}}
+" {{{ AlignAssignments()
 " align assignment 'x=7'
 " https://www.ibm.com/developerworks/library/l-vim-script-4/index.html
 function! AlignAssignments ()
@@ -222,70 +219,68 @@ function! AlignAssignments ()
         let linenum += 1
     endfor
 endfunction
+" }}}
+" {{{ Vex - netrw
+    let g:netrw_liststyle = 3
+    let g:netrw_banner = 0
 
-" update timestamp on every save
-function! UpdateTimestamp ()
-    '[,']s/^This file last updated: \zs.*/\= strftime("%Y-%m-%d %H:%M:%S") /
-endfunction" }}}
-" {{{ Helper functions - netrw
-let g:netrw_liststyle = 3
-let g:netrw_banner = 0
+    function! VexToggle(dir)
+        if exists("t:vex_buf_nr")
+            call VexClose()
+        else
+            call VexOpen(a:dir)
+        endif
+    endfunction
 
-function! VexToggle(dir)
-    if exists("t:vex_buf_nr")
-        call VexClose()
-    else
-        call VexOpen(a:dir)
-    endif
-endfunction
+    function! VexOpen(dir)
+        let g:netrw_browse_split = 4 " open files in previous windoe
+        let vex_width = 25
 
-function! VexOpen(dir)
-    let g:netrw_browse_split = 4 " open files in previous windoe
-    let vex_width = 25
+        execute "Vexplore " . a:dir
+        let t:vex_buf_nr = bufnr("%")
+        wincmd H
 
-    execute "Vexplore " . a:dir
-    let t:vex_buf_nr = bufnr("%")
-    wincmd H
+        call VexSize(vex_width)
+    endfunction
 
-    call VexSize(vex_width)
-endfunction
+    function! VexClose()
+        let cur_win_nr = winnr()
+        let target_nr = ( cur_win_nr == 1 ? winnr("#") : cur_win_nr)
 
-function! VexClose()
-    let cur_win_nr = winnr()
-    let target_nr = ( cur_win_nr == 1 ? winnr("#") : cur_win_nr)
+        1wincmd w
+        close
+        unlet t:vex_buf_nr
 
-    1wincmd w
-    close
-    unlet t:vex_buf_nr
+        execute (target_nr - 1) . "wincmd w"
+        call NormalizeWidths()
+    endfunction
 
-    execute (target_nr - 1) . "wincmd w"
-    call NormalizeWidths()
-endfunction
+    function! VexSize(vex_width)
+        execute "vertical resize" . a:vex_width
+        set winfixwidth
+        call NormalizeWidths()
+    endfunction
 
-function! VexSize(vex_width)
-    execute "vertical resize" . a:vex_width
-    set winfixwidth
-    call NormalizeWidths()
-endfunction
-
-function! NormalizeWidths()
-    let eadir_pref = &eadirection
-    set equalalways
-    " set eadirection = hor
-    let &eadirection = eadir_pref
-endfunction
+    function! NormalizeWidths()
+        let eadir_pref = &eadirection
+        set equalalways
+        " set eadirection = hor
+        let &eadirection = eadir_pref
+    endfunction
+    " }}}
+" {{{ TrimWhitespace()
+fun! TrimWhitespace()
+    let l:save = winsaveview()
+    %s/\s\+$//e
+    call winrestview(l:save)
+endfun
+    " }}}
 " }}}
 "{{{ Autocmd
-augroup fmt
-  autocmd!
-  autocmd BufWritePre * undojoin | Neoformat
-augroup END
-
-augroup align
-    autocmd!
-    autocmd BufWritePre,FileWritePre,FileAppendPre  *  :call AlignAssignments()
-augroup END
-
+" augroup align
+    " autocmd!
+    " autocmd BufWritePre,FileWritePre,FileAppendPre  *  :call AlignAssignments()
+" augroup END
 "}}}
 " {{{ Plugin setting
 
@@ -312,7 +307,7 @@ let g:user_emmet_mode='a'
 " vimwiki/vimwiki
 """""""""""""""""""""""""""""""""
 let wiki_1 = {}
-let wiki_1.path = 'C:\Users\User\Desktop\JD2017-18_T1(20170914)\vimwiki-cujdT1'
+let wiki_1.path = 'C:\Users\User\Desktop\JD2017-18_T1\vimwiki-cujdT1'
 " markdown to HTML is not suuported by vimwiki yet
 " let wiki_1.path_html = '~/vimwiki/vimwiki-personal_html/' 
 let wiki_1.syntax = 'markdown'
@@ -334,12 +329,12 @@ let wiki_3.ext = '.md'
 let g:vimwiki_list = [wiki_1, wiki_2, wiki_3]
 " }}}
 " {{{ Folding setting
-
 set foldmethod=marker
 set foldlevel=0
 set modelines=1
-
+"
 " enable markdown folding 
 let g:markdown_folding=1 
 " }}}
 " vim:foldmethod=marker:foldlevel=0
+
