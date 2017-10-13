@@ -37,11 +37,7 @@ There are 13 sections in my vimrc, namely
 1. Bracket setting _(need amendment)_
 1. Mapping setting
 1. Abbreviation setting
-1. Helper function 
-  - ToggleNumber()
-  - AlignAssignments()
-  - Vex related functions
-  - TrimWhitespace()
+1. Helper function
 1. Autocmd setting _(vacant)_
 1. Plugin setting
 1. Folding setting

@@ -42,12 +42,14 @@ set magic " turn magic on for regular express
 set mouse     =a " enable mouse support in console
 set showcmd
 
+" backup setting
+" backupdir is where your backup files are kept
 set backup
 set writebackup
 set backupdir =C:\\Users\\User\\Documents\\gVimPortable_backup
 set directory =C:\\Users\\User\\Documents\\gVimPortable_backup\\temp
 set confirm
-set history   =100
+set history   =500
 
 set novisualbell " don't beep
 set noerrorbells " don't beep
@@ -56,7 +58,7 @@ set wildmenu
 " }}}
 " {{{ Visual setting
 set t_Co=256	" enable 256-color support, nicer colors
-colorscheme onedark
+colorscheme hydrangea
 syntax on
 set guifont=consolas:h14
 set linespace=3
@@ -98,7 +100,7 @@ set shiftwidth               =4
 " }}}
 " {{{ Bracket setting
 set showmatch
-set mat                      =2 " How many tenths of a second to blink when matching brackets
+set mat=2 " How many tenths of a second to blink when matching brackets
 
 vnoremap $1 <esc>`>a)<esc>`<i(<esc>
 vnoremap $2 <esc>`>a]<esc>`<i[<esc>
@@ -115,7 +117,7 @@ inoremap $4 {<esc>o}<esc>O
 inoremap $q ''<esc>i
 inoremap $e ""<esc>i
 
-" }}}zo
+" }}}
 " {{{ Mapping setting
 let mapleader = "\<Space>"
 set backspace=indent,eol,start
@@ -160,10 +162,11 @@ noremap <Leader>` :call VexToggle("")<CR>
 " }}}
 " {{{ Abbreviation
 
-iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr>
+" timestamp
+iab xdate <c-r>=strftime("%Y-%m-%d %H:%M:%S")<cr> 
 iab clog console.log();
 iab teh the
-
+iab ... _****()_
 " }}}
 " {{{ Helper function
 " {{{ ToggleNumber()
@@ -336,5 +339,5 @@ set modelines=1
 " enable markdown folding 
 let g:markdown_folding=1 
 " }}}
-" vim:foldmethod=marker:foldlevel=0
+"vim:foldmethod=marker:foldlevel=0
 
